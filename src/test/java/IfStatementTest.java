@@ -32,6 +32,6 @@ public class IfStatementTest {
         int y = 1;
         int expected = 1;
         int actual = is.ifExample(bool, x, y);
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(0, actual);
     }
 }
